@@ -100,7 +100,7 @@
     }
 
     .detail-information {
-    width: 42vh;
+    width: 44vh;
     display: flex;
     justify-content: space-around;
     }
@@ -112,5 +112,11 @@
     .shape-header {
         font-size: 19px;
         padding: 0px 10px 0px 20px;
+    }
+}
+
+ @media screen and (max-width: 320px) {
+    .detail-information {
+        width: 75%;
     }
 }
