@@ -1,0 +1,50 @@
+
+.login {
+    font-size: 100px;
+    margin: 0;
+    color: rgb(255, 211, 91);
+
+}
+
+.main-navigation {
+    background-color: rgb(255, 193, 23);
+    padding-left: 22px; 
+    padding: 10px 0 0 16px;
+    position: fixed;
+    width: 100%;
+}
+
+.main-navigation__login {
+    margin: 0;
+}
+
+.main-navigation__login a,
+.main-navigation__info a {
+    padding: 0 0 10px 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+} 
+
+.main-navigation__info a {
+    color: rgb(17, 17, 17);
+}
+
+.main-navigation__menu-btn {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: rgb(255, 193, 23)
+}
+
+.main-navigation__menu-btn span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin : 4px;   
+    background-color: rgb(255, 255, 255);
+}
+
+.main-navigation__info{
+    background-color: rgb(255, 255, 255);
+    height: 90vh;
+}

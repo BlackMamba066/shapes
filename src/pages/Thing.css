@@ -1,0 +1,116 @@
+.detail-information {
+    width: 100%;
+    background-color: rgb(246, 246, 246);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 147vh;
+    border-left: rgb(224, 224, 224) 1px solid;
+}
+
+.shape-card {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+
+.shape-list {
+    background-color: rgb(255, 255, 255);
+    height: 80vh;
+}
+
+.shape-container {
+    display: flex;
+    background-color: rgb(255, 193, 23);
+    font-weight: 700;
+    font-size: 2.125rem;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    border-right: 1px solid rgb(0,0, 0);
+    height: 85vh;
+    padding-top: 35px;
+}
+
+.shape-container-information {
+    width: 25% ;
+    /* border-right: rgb(224, 224, 224) 1px solid; */
+}
+.shape-header {
+    padding: 0px 0 15px 20px;
+}
+
+.shape-detail__information {
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 40px;
+    border-radius: 13px;
+}
+
+.shape-detail__information ul {
+    padding: 0;
+    margin: 0;
+}
+
+.shape-specification__content {
+    height: 140vh;
+}
+
+@media screen and (min-width: 1000px) {
+
+    .detail-information {
+        height: 126vh;
+        width: 75%;
+    }
+
+}
+
+@media screen and (min-width: 400px) {
+    .detail-information {
+    width: 65%;
+    display: flex;
+    align-content: center;
+    height: 137vh;
+    align-items: center;
+    }
+
+    .shape-container-information {
+        width: 40%;
+    }
+
+    .shape-detail__information {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .shape-list .shape-item {
+        padding: 0;
+    }
+
+    .shape-list .shape-item__content .shape-item__info {
+        display: none;
+    }
+
+    .shape-item__content {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .detail-information {
+    width: 42vh;
+    display: flex;
+    justify-content: space-around;
+    }
+
+    .shape-detail__information {
+            width: 90%;
+    }
+
+    .shape-header {
+        font-size: 19px;
+        padding: 0px 10px 0px 20px;
+    }
+}

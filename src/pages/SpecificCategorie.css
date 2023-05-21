@@ -1,0 +1,54 @@
+.logo-specific {
+    width: 35%;
+    height: 19%;
+    border-radius: 100px;
+    background: rgb(219,174,238);
+    background: linear-gradient(90deg, rgba(219,174,238,1) 0%, rgba(150,212,255,1) 100%);
+}
+
+.main-container {
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(246, 246, 246);
+    padding-top: 35px;
+}
+
+.main-container .specific-container {
+    border: 1pxsolid black;
+    border-radius: 15px;
+    width: 45%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.suggestion-list {
+    width: 45%;
+    font-weight: lighter;
+    width: 385px;
+}
+
+.avatar-image-logo {
+    border: 5px solid rgb(153, 153, 153);
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    transform: rotate(-40deg);
+    height: 10px;
+    width: 17px;
+}
+
+.first-shape-suggestion, .second-shape-suggestion {
+    display: flex;
+    border-bottom: 1px solid rgb(231, 231, 231);
+    align-items: center;
+    text-decoration: none;
+}
+
+.suggestion-container {
+    width: 100%;
+}

@@ -1,0 +1,18 @@
+.shape-item__content{
+    display: flex;
+}
+
+.shape-item {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 5px 0 0 20px;
+    font-size: 12px;
+    border-bottom: 1px solid rgb(234, 229, 221);
+    padding-bottom: 5px;
+ }
+
+/* .shape-item a {
+    display: flex;
+    text-decoration: none;
+} */
+
