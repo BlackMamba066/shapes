@@ -114,11 +114,18 @@
     .shape-header {
         font-size: 19px;
         padding: 0px 10px 0px 20px;
+        margin-top: 35px;
     }
 }
 
  @media screen and (max-width: 320px) {
     .detail-information {
         width: 75%;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .shape-header {
+        margin-top: 35px;
     }
 }
