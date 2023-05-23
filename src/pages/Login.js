@@ -1,7 +1,19 @@
+import { Fragment } from "react";
 import "./Login.css";
 
 const Login = () => {
   return (
+    <Fragment>
+    <div className="header-categorie">
+    <div className="categorie-subtitle">
+      <button
+        className="main-categorie__menu-btn">
+        <span />
+        <span />
+        <span />
+      </button>
+    </div>
+  </div>
     <div className="global-container">
       <div className="closing-window"></div>
       <div className="login-container">
@@ -16,6 +28,7 @@ const Login = () => {
         <button type="button" className="login-btn">Continue</button>
       </div>
     </div>
+    </Fragment>
   );
 };
 

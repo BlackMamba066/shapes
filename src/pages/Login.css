@@ -1,3 +1,8 @@
+.header-categorie {
+    height: 38px;
+    background-color: rgb(255, 193, 23);
+}
+
 .global-container {
     display: flex;
     justify-content: center;

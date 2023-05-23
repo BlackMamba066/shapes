@@ -3,7 +3,8 @@ import "../components/ShapesList.css";
 import ShapesList from "../components/ShapesList";
 import Searchbar from "../components/Searchbar";
 import ShapeDescriptionList from "../components/ShapeDescriptionList";
-import { useState } from "react";
+import { Fragment, useState } from "react";
+import MainNavigation from "../Navigation/MainNavigation";
 
 const Thing = (props) => {
   const SHAPE = [
@@ -100,10 +101,13 @@ const Thing = (props) => {
   const deactivateBlockHandler = () => {
     setActiveBloc(false);
   };
-
+  
   return (
+    <Fragment>
+    <MainNavigation />
     <div className="shape-container">
       <div className="shape-container-information">
+    <div className="header"></div>
         <div className="shape-header">Things</div>
         <Searchbar />
 
@@ -113,6 +117,8 @@ const Thing = (props) => {
           <ShapesList items={SHAPE} className="shape-list" />
         </div>
       </div>
+     
+      
       <div className="detail-information">
         {activeBloc && (
           <div className="shape-detail__information">
@@ -124,9 +130,10 @@ const Thing = (props) => {
             </div>
           </div>
         )}
-      </div>
-    </div>
+      </div>   
+</div>
+</Fragment>
   );
-};
+    };
 
 export default Thing;

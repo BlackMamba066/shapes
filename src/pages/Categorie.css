@@ -1,3 +1,8 @@
+.header-categorie {
+    height: 38px;
+    background-color: rgb(255, 193, 23);
+}
+
 .card {
     width: 699px;
     height: 250px;
@@ -102,13 +107,6 @@
     background: linear-gradient(90deg, rgba(219,174,238,1) 0%, rgba(255,202,150,1) 100%);
 }
 
-/* 
-@media screen and (max-width:1200px) {
-  .categorie-bloc {
-    width: 140px;
-    height: 145px;
-  }
-} */
 
 @media screen and (max-width:415px) {
     .main-container {

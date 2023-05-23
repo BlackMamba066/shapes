@@ -1,8 +1,20 @@
 import "./Categorie.css";
 import DonutGrapgh from "../components/DonutGraph";
+import { Fragment } from "react";
 
 const Categorie = (props) => {
   return (
+    <Fragment>
+    <div className="header-categorie">
+    <div className="categorie-subtitle">
+      <button
+        className="main-categorie__menu-btn">
+        <span />
+        <span />
+        <span />
+      </button>
+    </div>
+  </div>
     <div className="global">
     <div className="main-container">
       <div className="categorie-container">
@@ -43,6 +55,7 @@ const Categorie = (props) => {
       </div>
     </div>
     </div>
+    </Fragment>
   );
 };
 
